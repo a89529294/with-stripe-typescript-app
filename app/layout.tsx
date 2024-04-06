@@ -32,7 +32,7 @@ export default function RootLayout({ children }: LayoutProps) {
     <html lang="en">
       <body>
         <div className="container">
-          <header>
+          {/* <header>
             <div className="header-content">
               <Link href="/" className="logo">
                 <img src="/logo.png" />
@@ -43,10 +43,10 @@ export default function RootLayout({ children }: LayoutProps) {
                 Next.js, TypeScript, and Stripe 🔒💸
               </h1>
             </div>
-          </header>
+          </header> */}
           {children}
         </div>
-        <div className="banner">
+        {/* <div className="banner">
           <span>
             This is a{" "}
             <a
@@ -66,7 +66,7 @@ export default function RootLayout({ children }: LayoutProps) {
             </a>
             .
           </span>
-        </div>
+        </div> */}
       </body>
     </html>
   );
